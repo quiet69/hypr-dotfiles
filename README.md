@@ -1,0 +1,1 @@
+[Installation](https://github.com/prasanthrangan/hyprdots) 
