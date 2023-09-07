@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 if [ -z "$XDG_PICTURES_DIR" ] ; then
-    XDG_PICTURES_DIR="$HOME/Pictures"
+    XDG_PICTURES_DIR="$HOME/Pictures/Screenshots/"
 fi
 
 save_dir="${2:-$XDG_PICTURES_DIR}"
@@ -20,7 +20,7 @@ fi
 
 case $1 in
 p) grim $save_dir/$save_file ;;
-s) grim -g "$(slurp)" - | swappy -f - ;;
+s) s) grim -g "$(slurp)" - | wl-copy ;;
 *)  echo "...valid options are..."
     echo "p : print screen to $save_dir"
     echo "s : snip current screen to $save_dir"   
