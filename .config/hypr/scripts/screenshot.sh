@@ -20,7 +20,7 @@ fi
 
 case $1 in
 p) grim $save_dir/$save_file ;;
-s) s) grim -g "$(slurp)" - | wl-copy ;;
+s) grim -g "$(slurp)" - | wl-copy ;;
 *)  echo "...valid options are..."
     echo "p : print screen to $save_dir"
     echo "s : snip current screen to $save_dir"   
