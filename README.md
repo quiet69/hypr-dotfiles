@@ -4,6 +4,6 @@
 
 # To fix cooler master mouse not wakey from eep
 ```
-quiet ALL=(ALL) NOPASSWD: /home/quiet/.config/hypr/scripts/fixmouse.sh
+sudo nano /etc/sudoers.d/fixmouse  
 ```
-<b>Disclaimer</b> This is plain bad practice but i cant be bothered typing in my password every time because Cooler Master cant fix they shit
+<b>Disclaimer</b>This is probably bad practice but oh well
